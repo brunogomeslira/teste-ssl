@@ -4,7 +4,6 @@ import { Injectable } from '@nestjs/common';
 import { Users, UserDocument } from './schemas/user.schema';
 import { GetUsers } from './schemas/getUser.schema';
 import { CreateUserDto } from './dto/create-user.dto';
-// const bcrypt = require('bcrypt');
 
 @Injectable()
 export class UserService {

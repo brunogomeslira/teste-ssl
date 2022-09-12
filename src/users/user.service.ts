@@ -21,8 +21,8 @@ export class UserService {
     return [
       {
         id: 1,
-        username: 'ok',
-        password: 'ok',
+        username: 'bryan',
+        password: '1234',
       },
     ];
   }
